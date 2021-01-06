@@ -11,7 +11,7 @@ p{
 color: #3C3C3C;
 font-size: 18px;
 padding-bottom: 20px;
-width: 80%;
+
 }
 .btn {
     text-decoration: none;
@@ -23,6 +23,9 @@ width: 80%;
 }
 .btn:hover{
     background-image: linear-gradient(to left, #F9C261,#F69470,#F9725C);  
+}
+.text-center{
+    text-align: center;
 }
 /*navbar style start here*/
 header{
@@ -69,4 +72,63 @@ h2{padding-top: 30px;
     font-size: 50px;
     color: #3C3C3C;
     text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+/* work style start*/
+
+.work-wrapper{
+    background:#fdfcfc;
+    height: 650px; 
+}
+.portfolio {
+    margin-top: -25px;
+}
+.portfolio-item {
+    border-radius: 10px;
+    margin: 37px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+.portfolio{
+    padding-bottom: 30px;
+}
+.portfolio li {
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    background-color: #fff;
+}
+.portfolio img{
+    width: 100%;
+}
+h3{
+    color: #3C3C3C;
+    font-size: 22px;
+}
+/*---*/
+.contact-wrapper{
+    height: 400px;
+}
+.contact {
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 65%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+.work-inquiry{
+    float: left;
+    width: 50%;
+}
+.text-color{
+    color: #fff;
+   padding-left: 44px;
+}
+.lc-btn {
+    padding: 88px 44px;
+    float: right;
 }
