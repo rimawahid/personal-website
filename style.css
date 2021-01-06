@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.pad-50{
+   padding-bottom: 70px;
+   padding-top: 70px;
+}
+p{
+color: #3C3C3C;
+font-size: 18px;
+padding-bottom: 20px;
+width: 80%;
+}
+.btn {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-image: linear-gradient(to right, #F9C261,#F69470,#F9725C);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-image: linear-gradient(to left, #F9C261,#F69470,#F9725C);  
+}
+/*navbar style start here*/
+header{
+    height: 60px;
+}
+.nav{
+    float: right;
+}
+
+.nav-item li{
+    float: left;
+    list-style-type: none;
+    padding-left: 55px;
+}
+.nav-item li a{
+    text-decoration: none;
+    color: #3C3C3C;
+}
+/*navbar style end here*/
+/*top-banner start here*/
+section{
+   height: 570px; 
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 3%;
+    height: 500px;
+
+}
+h1{
+    font-size: 60px;
+    color: #3C3C3C;
+}
+.name-highlight{
+    color: #FB6454;
+}
+.half-width img {
+    width: 100%;
+}
+/*top-banner end here*/
+h2{padding-top: 30px;
+    font-size: 50px;
+    color: #3C3C3C;
+    text-transform: uppercase;
+}
